@@ -244,7 +244,7 @@ let students = [
   },
 ];
 
-let div = $(".container");
+let container = $(".container");
 for (let elem of students) {
   if (elem.kpi > 50) {
     container.append(
@@ -258,4 +258,4 @@ for (let elem of students) {
 }
 
 $(".green").css("background-color", "green");
-$(".green").css("background-color", "red");
+$(".red").css("background-color", "red");
